@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+header {
+    display: flex;
+    background-color: #f4aaaf;
+    align-items: center;
+    justify-content: space-between
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 20px;
+
+
+}
+.logoa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+header ol {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header ol li {
+    margin: 8px;
+}
+
+header img {
+    width: 35px;
+}
+
+
+body {
+    background-color: #fdedec;
+}
+
+footer {
+    display: flex;
+    font-style: oblique;
+    justify-content: center;
+    border-top: 1px solid;
+}
+
+
+
+.copy {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.copy a {
+    text-decoration: none;
+}
+
+.titulo {
+    font-size: 28px;
+    font-family: "Quicksand", sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    margin: 10px;
+    border-bottom: 1px solid rgb(133, 127, 127)
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    margin: 10px;
+
+}
+
+h4 {
+    font-size: 24px;
+    font-family: "Ysabeau Office", sans-serif;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+
+
+}
+
+
+
+p {
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    font-family: "Quicksand", sans-serif;
+    margin: 60px;
+}
+
+.title img {
+    width: 50px
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #fad3b2;
+}
+
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box img {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    margin: 20px 20px 20px 20px;
+    padding: 10px
+    
+}
+
+.box p {
+    font-size: 16px;
+    margin: 40px;
+}
+
+
+.spotify {
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fabo {
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.liga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.liga img {
+    border-radius: 70px;
+
+}
+
+h5 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+
+.mapa {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+.video1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.listab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #fad3b2;
+
+
+
+}
+
+.listac {
+    background-color:#fad3b2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+
+}
+
+.listac a{
+    text-decoration: none;
+
+}
+
+.checklist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fad3b2;
+    
+}
+
+.video2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    nav ol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    nav ol li {
+        list-style: none;
+        margin-top: 20px;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    .box img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ban img {
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+    }
+
+    .video2 {
+        position: relative;
+        padding-bottom: 70%;
+        padding-top: 0px;
+        height: 0;
+        overflow: hidden;
+
+    }
+
+    .video2 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    footer {
+        display: flex;
+        font-style: oblique;
+        justify-content: center;
+        border-top: 1px solid;
+    }
+
+
+
+}
